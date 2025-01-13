@@ -381,9 +381,10 @@ textarea {
     src: url('../fonts/Montserrat-Bold.ttf');
 } 
 
-.helo {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
 }
