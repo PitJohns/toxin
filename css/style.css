@@ -388,3 +388,8 @@ html {
 *, *::before, *::after{
     box-sizing: inherit;
 }
+
+.wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+}
