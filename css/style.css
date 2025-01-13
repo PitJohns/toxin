@@ -365,3 +365,25 @@ textarea {
     padding: 0.2em 0;
 }
 
+/* Montserrat-400 normal */ 
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Montserrat-Regular.ttf');
+} 
+
+/* Montserrat-700 normal */ 
+@font-face {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Montserrat-Bold.ttf');
+} 
+
+.helo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
