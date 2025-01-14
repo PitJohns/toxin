@@ -383,6 +383,7 @@ textarea {
 
 html {
     box-sizing: border-box;
+    font-family: Montserrate;
 }
 
 *, *::before, *::after{
