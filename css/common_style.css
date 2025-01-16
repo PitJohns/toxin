@@ -370,7 +370,7 @@ textarea {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/Montserrat-Regular.ttf');
+    src: url(/fonts/Montserrat-Regular.ttf);
 } 
 
 /* Montserrat-700 normal */ 
@@ -378,8 +378,46 @@ textarea {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/Montserrat-Bold.ttf');
+    src: url(/fonts/Montserrat-Bold.ttf);
 } 
+
+/* Montserrat-400 normal */ 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Montserrat-700 normal */ 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: 700;
+    font-display: swap;
+}
+
+/* Montserrat-400 normal */ 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.svg) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Montserrat-700 normal */ 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Bold.svg) format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 
 html {
     box-sizing: border-box;
